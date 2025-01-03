@@ -1,6 +1,6 @@
-# Sales Prediction
+# Car Purchase Price Prediction
 ## **Introduction**
-This project uses machine learning to predict sales, leveraging XGBoost, Random Forest, and DNN algorithms for accurate forecasting. By analyzing historical sales data, the model learns patterns and trends to project future demand. This code covers data preprocessing, model training, and evaluation, offering a reliable approach to sales prediction.
+This project uses machine learning to predict car purchase prices, leveraging XGBoost, Random Forest, and DNN algorithms for accurate forecasting. By analyzing historical sales data, the model learns patterns and trends to project future demand. This code covers data preprocessing, model training, and evaluation, offering a reliable approach to sales prediction.
 
 ## **Installation**
 
@@ -25,8 +25,8 @@ The sales data for this project was downloaded from [Sales Prediction Dataset](h
 | Model          | Mean Absolute Error | R-Squared |
 |----------------|---------------------|-----------|
 | DNN            | 234                 | 0.99      |
-| XGBoost        | 734                 | 0.99      |
-| Random Forest  | 1800                | 0.93      |
+| XGBoost        | 410                 | 0.99      |
+| Random Forest  | 530                 | 0.93      |
 
 
 In addition, training shows that 'credit card debt' doesn't help to predict 'car purchase amount' and that 'age' is the most important feature.
